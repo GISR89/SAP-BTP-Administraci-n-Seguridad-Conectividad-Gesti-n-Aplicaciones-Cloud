@@ -1,0 +1,31 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.CAP_Viewer",
+      "description": "CAP Viewer"
+    },
+      {
+      "name": "$XSAPPNAME.CAP_Admin",
+      "description": "CAP Admin"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "CAP_Viewer",
+      "description": "CAP Viewer",
+      "scope-references": [
+        "$XSAPPNAME.CAP_Viewer"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "CAP_Admin",
+      "description": "CAP Admin",
+      "scope-references": [
+        "$XSAPPNAME.CAP_Admin"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
